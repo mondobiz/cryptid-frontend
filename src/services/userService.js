@@ -1,4 +1,4 @@
-import { setToken } from './tokenService';
+import { getUserFromToken, setToken } from './tokenService';
 const BASE_URL = 'http://localhost:3001/api/users';
 function signup(user) {
     return fetch(BASE_URL + '/signup', {
@@ -27,6 +27,7 @@ function login(credentials) {
 function logout() {
 }
 function getUser() {
+    return getUserFromToken();
 }
 export {
     signup,
