@@ -1,4 +1,5 @@
 // import { useState } from 'react';
+import './pages.css'
 
 import Creatures from '../components/creatures/Creatures';
 
@@ -13,7 +14,7 @@ export default function DashBoardPage(props) {
 
     return (
         <main className="Page">
-            <h1>Cryptid Creatures!</h1>
+            <h1>Cryptid Creatures of the Week!</h1>
             <Creatures />
 
     
