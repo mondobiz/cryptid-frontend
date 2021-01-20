@@ -1,6 +1,6 @@
 // import { useState } from 'react';
 import './pages.css'
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Creatures from '../components/creatures/Creatures';
 
 export default function DashBoardPage(props) {
